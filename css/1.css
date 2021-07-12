@@ -1,0 +1,28 @@
+.back {
+    background-color: black;
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+p:first-child {
+    background-image: url("../pic/2.jpg");
+  }
+  .pn{
+
+    position:relative;
+    height:100px;
+    width:200px;
+    background-color: cyan;
+    background-image: url("../pic/2.jpg");
+
+  }
+  .sn{
+      top:10px;
+      right: 10px;
+  }
+  @media(max-width:600px){
+      .pn{
+          width:500px;
+          background-image: none;
+      }
+  }
